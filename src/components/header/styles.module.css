@@ -1,0 +1,24 @@
+.header {
+    @apply bg-secondary  max-sm:py-2 max-sm:px-2
+}
+
+.menuList {
+    @apply flex items-center  max-sm:hidden
+}
+
+.menuList>li{
+    @apply  ms-10 text-white h-[80px] flex items-center
+}
+.iconsActions li:hover,
+.menuList>li:hover{
+    @apply text-red-300 transition-all underline
+}
+
+.iconsActions{
+    @apply  ms-10 text-white flex items-center
+}
+
+.iconsActions li{
+    @apply  ms-5
+}
+

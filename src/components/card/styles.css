@@ -1,0 +1,16 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    @apply transition-all
+}
+
+.card:hover .text-content {
+    @apply bg-opacity-100 transition-all
+}
+
+.card img {
+    @apply scale-100 transition-all
+}
+
+.card:hover img {
+    @apply scale-110 transition-all
+}
